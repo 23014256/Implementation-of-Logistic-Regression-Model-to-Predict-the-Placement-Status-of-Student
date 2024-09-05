@@ -14,7 +14,7 @@ Display the results.
 ## Program:
 ## Developed by: Suman G
 ## RegisterNumber: 212223240163
-
+```
 import pandas as pd
 data=pd.read_csv("Placement_Data.csv")
 data.head()
@@ -67,6 +67,8 @@ classification_report1 = classification_report(y_test,y_pred)
 print(classification_report1)
 
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
+
+```
 ## Output:
 ![image](https://github.com/Murali-Krishna0/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/149054535/299165f7-badf-43a6-9bac-2e28a49ba09c)
 ![image](https://github.com/Murali-Krishna0/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/149054535/74198cf9-0ada-4ef9-87b9-66860113b6e0)
